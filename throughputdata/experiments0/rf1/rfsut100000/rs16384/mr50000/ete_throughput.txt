@@ -1,0 +1,2 @@
+ops=29046.593495392994,totalTime(us)=6885489,totalMsg=200000
+'Uses correct crc32c code\n', '\n', ' med_latency:2803884.0 us,avg_latency:2806467.0 us,std: 19563.2 ,ops:331.7 ,num: 999 \n', '\n', ' ----- Total ops:29046.6  \n', 'Request counter 0 \n'

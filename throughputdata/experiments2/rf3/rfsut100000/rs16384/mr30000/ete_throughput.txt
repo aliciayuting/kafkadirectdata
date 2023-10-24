@@ -1,0 +1,2 @@
+ops=1168.2057387873276,totalTime(us)=12840204,totalMsg=15000
+'66822 records sent, 22620.9 records/sec (353.45 MB/sec), 1074.56 ms avg latency, 1305.00 ms max latency, 1135905 us 50th, 1282147 us 95th, 1299524 us 99th, 1303810 us 99.9th.\n', 'Total time of the process is 3100 ms\n'
