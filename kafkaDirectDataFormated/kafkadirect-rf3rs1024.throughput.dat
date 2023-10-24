@@ -1,0 +1,22 @@
+# Column-0:     max_rate_ops                                                                                                                                                                    
+# Column-1:     actual_rate_ops                                                                                                                                                                 
+# Column-2:     avg_latency_us                                                                                                                                                                  
+# Column-3:     stddev                                                                                                                                                                          
+# Column-4:     min                                                                                                                                                                             
+# Column-5:     1pct                                                                                                                                                                            
+# Column-6:     5pct                                                                                                                                                                            
+# Column-7:     10pct                                                                                                                                                                           
+# Column-8:     50pct                                                                                                                                                                           
+# Column-9:     90pct                                                                                                                                                                           
+# Column-10:    95pct                                                                                                                                                                           
+# Column-11:    99pct                                                                                                                                                                           
+# Column-12:    max                                                                                                                                                                             
+# Column-13,14: pub_to_svr_avg/std  (pub.TLT_SERVICE_CLIENT_PUT_AND_FORGET(0)   --> svr.VOLATILE_PUT_AND_FORGET_START(3))
+# Column-15,16: svr_rep_avg/std     (svr.VOLATILE_PUT_AND_FORGET_START(3)       --> svr.TLT_ACTION_POST_START(6))                                                              
+# Column-17,18: svr_to_sub_avg/std  (svr.TLT_ACTION_POST_START(6)               --> sub.TLT_DDS_SUBSCRIBER_CALLED(11)) 
+#0      #1          #2        #3      #4      #5          #6        #7       #8        #9        #10       #11       #12       #13    #14   #15   #16    #17    #18
+10000   824.99    11585865  260321  11131742  11140217  11177822  11222881  11587552  11944768  11989169  12024574  12033066   0      0      0     0     0      0
+30000   817.78    12077485  45555   11984180  11987297  11995560  11997659  12096075  12127463  12130629  12132885  12133763  0      0      0     0     0      0
+50000  7758.14    11793973  456234  11002838  11017089  11083329  11161834  11799226  12439376  12466706  12476478  12478351 0      0      0     0     0      0
+70000  7977.47    11773144  292071  11241210  11253206  11296943  11351187  11793268  12149346  12160899  12169917  12172328 0      0      0     0     0      0
+-1     7754.43    12501458  94331   12355697  12360602  12372281  12384310  12563416  12602714  12607215  12614181  12615958 0      0      0     0     0      0

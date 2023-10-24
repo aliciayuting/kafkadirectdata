@@ -1,0 +1,24 @@
+# Column-0:     max_rate_ops                                                                                                                                                                    
+# Column-1:     actual_rate_ops                                                                                                                                                                 
+# Column-2:     avg_latency_us                                                                                                                                                                  
+# Column-3:     stddev                                                                                                                                                                          
+# Column-4:     min                                                                                                                                                                             
+# Column-5:     1pct                                                                                                                                                                            
+# Column-6:     5pct                                                                                                                                                                            
+# Column-7:     10pct                                                                                                                                                                           
+# Column-8:     50pct                                                                                                                                                                           
+# Column-9:     90pct                                                                                                                                                                           
+# Column-10:    95pct                                                                                                                                                                           
+# Column-11:    99pct                                                                                                                                                                           
+# Column-12:    max                                                                                                                                                                             
+# Column-13,14: pub_to_svr_avg/std  (pub.TLT_SERVICE_CLIENT_PUT_AND_FORGET(0)   --> svr.VOLATILE_PUT_AND_FORGET_START(3))
+# Column-15,16: svr_rep_avg/std     (svr.VOLATILE_PUT_AND_FORGET_START(3)       --> svr.TLT_ACTION_POST_START(6))                                                              
+# Column-17,18: svr_to_sub_avg/std  (svr.TLT_ACTION_POST_START(6)               --> sub.TLT_DDS_SUBSCRIBER_CALLED(11)) 
+#0      #1          #2        #3      #4      #5      #6      #7      #8      #9      #10       #11       #12       #13    #14   #15   #16    #17    #18
+5000   4707.49    12510     495845    82      93      101    109      158    31410   97630     201628   502256      0      0      0     0     0      0
+8000   8007.80    80757     243763    184     379     430    455      593    16000   743102    1192955  1290514     0      0      0     0     0      0
+10000  10000.58   118385    306416    189     418     462    492      626    526748  981312    1331896  1417020     0      0      0     0     0      0
+40000  40637.22   664301    487198    472     577     850    38620   622797  1382461 1452666   1472111  1477442     0      0      0     0     0      0
+50000  52603.12   579626    385692    455     633     1159   66379   568552  1124866 1157560   1175124  1179070     0      0      0     0     0      0
+60000  63392.88   633065    350635    9015    19808   71667  129839  655810  1095643 1117676   1130569  1134093      0      0      0     0     0      0
+-1     118489.15  3736025   1537260   1611367 1677501 17744094  3970750  6108732  6350681   6543701 6590343  1537260      0      0      0     0     0      0
